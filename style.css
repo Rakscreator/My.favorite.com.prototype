@@ -1,0 +1,51 @@
+body{
+  text-align: Center;
+  background: rgb(245,252,0);
+background: linear-gradient(90deg, rgba(245,252,0,1) 10%, rgba(26,255,0,1) 24%, rgba(255,0,0,1) 41%, rgba(0,232,255,1) 60%, rgba(0,44,255,1) 83%, rgba(244,0,255,1) 91%, rgba(249,114,255,1) 100%);
+  background-repeat: no repeat;
+}
+p{
+    font-size: 30;
+    font-family:'Playball' , cursive
+}
+.text{
+  font-family: 'Playball',cursive;
+  font-size: 40
+}
+img{
+  border-radius:100%;
+  width:200px 
+}
+#div{
+  font-size:35px;
+  
+}
+.menu {
+    list-style: none;
+    font-family: cursive;
+    position: fixed;
+    top:0px;
+    margin-top: 0px;
+    background:trastparent;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-left: 33px;
+    padding-bottom: 5px;
+    font-family: monospace;
+    font-size: 20px;
+    display: inline;
+}
+
+.links:hover {
+    background-color: gold;
+    font-family: 25px;
+    text-decoration: underline overline;
+}
